@@ -1,39 +1,28 @@
-baseURL: http://docs.computingoverload.de/
+baseURL: https://docs.ausweisapp2.computingoverload.de/
 defaultContentLanguageInSubdir: true
 languageCode: en
-title: easydb documentation
+title: ausweisapp2 documentation
 DefaultContentLanguage: en
 preserveTaxonomyNames: true
 disableKinds:
   - taxonomyTerm
 
 languages:
-  de:
-    weight: 2
-
-    menu:
-      main:
-        - identifier: techdocs
-          name: Technische Dokumentation (EN)
-          url: /en/technical
-          weight: -930
-
   en:
     weight: 2
-
-  zulu:
-    contentDir: intern
+    menu:
+      main:
+        - identifier: technical
+          name: Technical documentation
+          url: /en/technical
+          weight: -930
+  de:
     weight: 2
+    menu:
+      main:
+        - identifier: technical
+          name: Technische Dokumentation
+          url: /de/technical
+          weight: -930
 
 theme: "ausweisapp2-hugo-theme"
-# sectionPagesMenu = "main"
-
-pygmentsCodeFences: true
-
-pygmentsOptions: ""
-# Use the Chroma stylesheet
-pygmentsUseClasses: true
-pygmentsUseClassic: false
-
-# See https://help.farbox.com/pygments.html
-pygmentsStyle: "github"
