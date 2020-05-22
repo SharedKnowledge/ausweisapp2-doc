@@ -2,7 +2,9 @@
 title: "Ausweisapp2 Dokumentation"
 menu:
   main:
+    name: "Home"
+    identifier: ""
     weight: -1000
 ---
 
-# Willkommen zur Ausweisapp2 Dokumentation
+Ausweisapp2 Dokumentation
