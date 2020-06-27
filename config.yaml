@@ -10,20 +10,10 @@ disableKinds:
 languages:
   en:
     weight: 2
-    menu:
-      main:
-        - identifier: technical
-          name: Technical documentation
-          url: /en/technical
-          weight: -930
+
   de:
     weight: 2
-    menu:
-      main:
-        - identifier: technical
-          name: Technische Dokumentation
-          url: /de/technical
-          weight: -930
+
 
 theme: "ausweisapp2-hugo-theme"
 
