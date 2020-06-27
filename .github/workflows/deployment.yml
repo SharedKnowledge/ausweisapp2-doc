@@ -16,7 +16,8 @@ jobs:
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
           Hostname: ${{ secrets.DEPLOYMENT_HOST }}
-          PrivateKey: ${{ secrets.SSH_PRIVATE_KEY }} 
+          PrivateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+          Port: ${{ secrets.DEPLOYMENT_HOST_PORT }}
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan -p $Port $Hostname >> ~/.ssh/known_hosts
