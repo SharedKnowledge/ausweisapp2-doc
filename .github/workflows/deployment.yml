@@ -26,4 +26,7 @@ jobs:
         shell: bash
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: ssh ${{ secrets.DEPLOYMENT_HOST_USER }}@${{ secrets.DEPLOYMENT_HOST }} -p ${{ secrets.DEPLOYMENT_HOST_PORT }}
+          Username: ${{ secrets.DEPLOYMENT_HOST_USER }}
+          Hostname: ${{ secrets.DEPLOYMENT_HOST }}
+          Port: ${{ secrets.DEPLOYMENT_HOST_PORT }}
+        run: ssh $Username@$Hostname -p $Port
