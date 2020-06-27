@@ -15,13 +15,14 @@ jobs:
         shell: bash
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+          Hostname: ${{ secrets.DEPLOYMENT_HOST }}
+          PrivateKey: ${{ secrets.SSH_PRIVATE_KEY }} 
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan ${{ secrets.DEPLOYMENT_HOST }} >> ~/.ssh/known_hosts
+          ssh-keygen -R $Hostname >> ~/.ssh/known_hosts
           ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
-          
-          
+          ssh-add - <<< "$PrivateKey"
+
       - name: deploy website
         shell: bash
         env:
