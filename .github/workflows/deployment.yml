@@ -1,0 +1,29 @@
+name: deployment
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup SSH Agent
+        shell: bash
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan ${{ secrets.DEPLOYMENT_HOST }} >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+          
+          
+      - name: deploy website
+        shell: bash
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: ssh ${{ secrets.DEPLOYMENT_HOST_USER }}@${{ secrets.DEPLOYMENT_HOST }} -p ${{ secrets.DEPLOYMENT_HOST_PORT }}
