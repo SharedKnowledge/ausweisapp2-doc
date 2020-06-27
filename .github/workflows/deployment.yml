@@ -30,4 +30,6 @@ jobs:
           Username: ${{ secrets.DEPLOYMENT_HOST_USER }}
           Hostname: ${{ secrets.DEPLOYMENT_HOST }}
           Port: ${{ secrets.DEPLOYMENT_HOST_PORT }}
-        run: ssh $Username@$Hostname -p $Port '/home/github-actions/projects/run-update-on-ausweisapp2-doc.sh'
+        run: |
+          ssh-keygen -R $Hostname >> ~/.ssh/known_hosts
+          ssh $Username@$Hostname -p $Port '/home/github-actions/projects/run-update-on-ausweisapp2-doc.sh'
