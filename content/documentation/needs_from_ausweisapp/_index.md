@@ -1,8 +1,8 @@
 ---
-title: "Bedürfnisse an die AusweisApp"
+title: "Was wir im Idealfall von der Ausweisapp haben wollen "
 menu:
   main:
-    name: "Bedürfnisse an die AusweisApp"
+    name: "Was wir im Idealfall von der Ausweisapp haben wollen"
     parent: "documentation"
     identifier: "documentation/needs_from_ausweisapp"
     weight: -999
