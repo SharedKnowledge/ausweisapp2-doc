@@ -1,8 +1,8 @@
 ---
-title: "Advantages and disadvantages"
+title: "Vor und Nachteile"
 menu:
   main:
-    name: "Advantages and disadvantages"
+    name: "Vor und Nachteile"
     parent: "placeholder/changedsdk"
     identifier: "placeholder/changedsdk/advantagesanddisadvantages"
     weight: -929

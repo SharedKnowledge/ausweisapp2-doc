@@ -1,8 +1,8 @@
 ---
-title: "Documentation"
+title: "Dokumentation"
 menu:
   main:
-    name: "Documentation"
+    name: "Dokumentation"
 #    parent: "integration"
     identifier: "documentation"
     weight: -900

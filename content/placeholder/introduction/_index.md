@@ -1,8 +1,8 @@
 ---
-title: "Introduction"
+title: "Einführung"
 menu:
   main:
-    name: "Introduction"
+    name: "Einführung"
     parent: "placeholder"
     identifier: "placeholder/introduction"
     weight: -930
