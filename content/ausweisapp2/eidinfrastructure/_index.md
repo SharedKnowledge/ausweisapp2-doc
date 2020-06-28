@@ -9,6 +9,4 @@ menu:
     #pre: '<i class="fa fa-user"></i>'
 ---
 
-adasd asd as{{< br >}}{{< br >}} dasd as dasdasd
-
 {{< video eIDInfrastruktur.mp4 >}}
