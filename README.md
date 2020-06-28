@@ -44,9 +44,37 @@ touch <path_where_your_file_should_be_placed>/_index.de.md>
 These options can be used to define settings such as location, title, etc.
 
 ```
-title: "Technical documentation"                # defines the site title
+title: "Placeholder"                            # defines the site title
 menu:
   main:
-    identifier: "technical" 	                # defines the location on the web
-    weight: -930                                # defines the order in the navigation (lower = higher classification)
+    name: "Placeholder"                         # defines the menu entry
+    parent: "integration"                       # defines the parent entry
+    identifier: "placeholder"                   # defines the location on the web
+    weight: -999                                # defines the order in the navigation (lower = higher classification)
+    pre: '<i class="fa fa-book"></i>'           # defines the navigation icon
+```
+
+### Reference a video
+
+**From local storage**
+
+```go
+{{< video src="ausweisapp2vorstellung.mp4#center" >}}
+```
+
+**From htw mediathek**
+
+```go
+{{< video_biblio_htw "<videohash>" >}}
+```
+
+Example:
+```go
+{{< video_biblio_htw a370dd5bf53e1a262e65ac4e3b19c4c7.mp4 >}}
+```
+
+**From youtube**
+
+```go
+{{< youtube qC5KtatMcUw >}}
 ```
