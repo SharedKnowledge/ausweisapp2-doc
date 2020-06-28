@@ -1,8 +1,8 @@
 ---
-title: "Integration into Sharksystems"
+title: "Integration in die SharkNet2Android App"
 menu:
   main:
-    name: "Integration into Sharksystems"
+    name: "Integration in die SharkNet2Android App"
     parent: "placeholder"
     identifier: "placeholder/integration"
     weight: -924

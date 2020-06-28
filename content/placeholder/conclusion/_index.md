@@ -1,8 +1,8 @@
 ---
-title: "Conclusion"
+title: "Zusammenfassung"
 menu:
   main:
-    name: "Conclusion"
+    name: "Zusammenfassung"
     parent: "placeholder"
     identifier: "placeholder/conclusion"
     weight: -923

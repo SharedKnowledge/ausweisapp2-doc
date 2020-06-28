@@ -1,8 +1,8 @@
 ---
-title: "Project members"
+title: "Projekt Mitglieder"
 menu:
   main:
-    name: "Project members"
+    name: "Projekt Mitglieder"
     parent: "placeholder/introduction"
     identifier: "placeholder/introduction/members"
     weight: -929

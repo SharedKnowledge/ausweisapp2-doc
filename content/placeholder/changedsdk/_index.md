@@ -1,8 +1,8 @@
 ---
-title: "Changed SDK"
+title: "Unsere Änderungen an der SDK"
 menu:
   main:
-    name: "Changed SDK"
+    name: "Unsere Änderungen an der SDK"
     parent: "placeholder"
     identifier: "placeholder/changedsdk"
     weight: -925

@@ -1,8 +1,8 @@
 ---
-title: "Infrastructure"
+title: "Infrastruktur"
 menu:
   main:
-    name: "Infrastructure"
+    name: "Infrastruktur"
     parent: "placeholder"
     identifier: "placeholder/infrastructure"
     weight: -929

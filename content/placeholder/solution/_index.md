@@ -1,8 +1,8 @@
 ---
-title: "SDK Solution"
+title: "SDK Lösung"
 menu:
   main:
-    name: "SDK Solution"
+    name: "SDK Lösung"
     parent: "placeholder"
     identifier: "placeholder/sdksolution"
     weight: -926
