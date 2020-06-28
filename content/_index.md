@@ -1,14 +1,21 @@
 ---
-title: "Ausweisapp2 documentation"
+title: "Ausweisapp2 Dokumentation"
 menu:
   main:
     weight: -1000
 ---
 
-# Ausweisapp2 documentation { #hello }
-
-h1
+# Willkommen zur Ausweisapp2 Dokumentation
 
 
 
+## Projektbeteiligte
 
+- Ali Aslan
+- Jenny Illbruck
+- Leon Steinhäuser
+- Leonardo Ruland
+- Marvin Rausch
+- Muhammed Ali Geldi
+- Paul Wüsthoff
+- Tobias Schwerdtfeger

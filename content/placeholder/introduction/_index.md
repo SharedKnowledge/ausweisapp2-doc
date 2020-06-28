@@ -3,9 +3,10 @@ title: "Introduction"
 menu:
   main:
     name: "Introduction"
-    identifier: "introduction"
+    parent: "placeholder"
+    identifier: "placeholder/introduction"
     weight: -930
-    pre: '<i class="fa fa-user"></i>'
+    #pre: '<i class="fa fa-user"></i>'
 ---
 
 # Introduction
