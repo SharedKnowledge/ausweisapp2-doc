@@ -8,6 +8,7 @@ menu:
     weight: -997
     pre: '<i class="fa fa-shopping-cart"></i>'
 ---
+## Einkaufsseznarien
 
 Einkaufsszenarien eines solchen Frameworks könnten im Hinblick auf Authentifizierung die folgenden sein:
 

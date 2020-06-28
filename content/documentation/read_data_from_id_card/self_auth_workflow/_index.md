@@ -8,8 +8,10 @@ menu:
     weight: -900
     #pre: '<i class="fa fa-id-badge"></i>'
 ---
+## SelfAuth Workflow
 
 Der SelfAuth Workflow, wie er z.B. in der AusweisApp2 (Android) erfolgt:
+{{< br >}}{{< br >}}
 
 - In SelfAuthModel.cpp werden in resetContext fireSelfAuthenticationDataChanged & onSelfAuthenticationDataChanged connected.
 - Wurden Daten vom Dienst zurück übermittelt, wird onSelfAuthenticationDataChanged aufgerufen.

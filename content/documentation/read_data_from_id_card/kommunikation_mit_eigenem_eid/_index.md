@@ -1,16 +1,16 @@
 ---
-title: "Communication with own eid service"
+title: "Kommunikation mit einem eigenen eID-Server"
 menu:
   main:
-    name: "Communication with own eid service"
+    name: "Kommunikation mit einem eigenen eID-Server"
     parent: "documentation/read_data_from_id_card"
     identifier: "documentation/read_data_from_id_card/communication_with_own_eid_service"
     weight: -900
     #pre: '<i class="fa fa-id-badge"></i>'
 ---
-
+## Kommunikation mit einem eigenen eID-Server
 Dieser Workflow kann auch als Wegweiser für die Integration mit einem eigenen Dienst genutzt werden, da nur eine theoretische Ablaufbeschreibung unter BSI TR-03124 existiert (Technical Guideline BSI TR-03124):
-
+{{< br >}}{{< br >}}
 - Der Nutzer klickt auf den Link vom Dienst mit einem tcTokenUrl Verweis.
 - Der eID Client (z.B. die AusweisApp2) öffnet sich und lädt die TC Token Datei (im XML Format) unter der angegebenen Adresse ab.
 - Dieser TC Token (Seite 11; Seite 13 als Beispiel; oder reales Beispiel: https://test.governikus-eid.de/AusweisAuskunft/WebServiceRequesterServlet?mode=json) beinhaltet die Adresse des eID-Server (z.B. https://testpaos.governikus-eid.de:443/ecardpaos/paosreceiver) und eine zugehörige Session ID (TODO: Wie genau genutzt?). Die angegebene RefreshAddress (z.B. https://test.governikus-eid.de/AusweisAuskunft/WebServiceReceiverServlet?refID=XXXXXXXXXXX) ist die Adresse, die der eID-Client anschließend zum Browser/ Nutzer zurückgibt/ aufruft (anderes Beispiel: Login mit eigens generierter Session ID für Online Shop: www.exampleshop.com/login?id=123456).
