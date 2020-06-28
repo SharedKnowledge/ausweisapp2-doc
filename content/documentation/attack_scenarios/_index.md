@@ -6,7 +6,7 @@ menu:
     parent: "documentation"
     identifier: "documentation/attack_scenarios"
     weight: -993
-    #pre: '<i class="fa fa-id-badge"></i>'
+    pre: '<i class="fa fa-fire-extinguisher"></i>'
 ---
 
 ## Möchliche Angriffsszenarien

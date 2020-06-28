@@ -6,7 +6,7 @@ menu:
     parent: "documentation"
     identifier: "documentation/our_requirements_for_the_ausweisapp2"
     weight: -998
-    #pre: '<i class="fa fa-id-badge"></i>'
+    pre: '<i class="fa fa-list-alt"></i>'
 ---
 
 ## Gewünschte Anforderungen an die AusweisApp2

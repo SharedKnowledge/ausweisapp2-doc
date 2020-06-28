@@ -6,7 +6,7 @@ menu:
     parent: "documentation"
     identifier: "documentation/implementation_possibilities"
     weight: -992
-    #pre: '<i class="fa fa-id-badge"></i>'
+    pre: '<i class="fa fa-check-circle"></i>'
 ---
 
 # Diensteanbieter werden
