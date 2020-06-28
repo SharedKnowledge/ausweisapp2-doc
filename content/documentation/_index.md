@@ -9,6 +9,4 @@ menu:
     pre: '<i class="fa fa-book"></i>'
 ---
 
-# Documentation
-
-{{< video src="ausweisapp2vorstellung.mp4#center" >}}
+Dieser Abschnitt enthält die schriftliche Dokumentation zu der Ausarbeitung.

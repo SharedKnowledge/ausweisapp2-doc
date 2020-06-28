@@ -9,4 +9,4 @@ menu:
     #pre: '<i class="fa fa-user"></i>'
 ---
 
-{{< video_biblio_htw 7a34ac385e606660eb1c2ee200c91bf3.mp4 >}}
+{{< video_biblio_htw "7a34ac385e606660eb1c2ee200c91bf3.mp4#center" >}}

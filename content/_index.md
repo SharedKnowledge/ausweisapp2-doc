@@ -5,11 +5,10 @@ menu:
     weight: -1000
 ---
 
-# Willkommen zur Ausweisapp2 Dokumentation
-
-
 ## Product Owner
+
 - Prof. Dr.-Ing. Thomas Schwotzer
+
 ## Projektbeteiligte
 
 - Ali Aslan
