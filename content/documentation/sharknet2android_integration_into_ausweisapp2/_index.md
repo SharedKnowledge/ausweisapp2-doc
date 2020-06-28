@@ -39,15 +39,15 @@ Die Klasse net.sharksystem.persons.android.PersonsStorageAndroid enthält Funkti
 
 Es wird zunächst die MakanListActivity gestartet.
 
-![Android main intend](android_main_intend.png)
+![Android main intend](android_main_intend.png#center)
 
 ### Beim Erstellen der MakanListActivity wird in der onCreate Methode zunächst die onCreate Methode der Oberklasse SharkNetActivity ausgeführt.
 
-![Android main intend](sharknetnctivity_oncreate.png)
+![Android main intend](sharknetnctivity_oncreate.png#center)
 
 ### Ist ein Nutzer (Owner) nicht bereits festgelegt, wird im weiteren Verlauf die InitActivity gestartet, in der der Owner durch Eingabe des Nutzernamens festgelegt wird.
 
-![SharkNetActivity onCreate starts init activity](sharknetactivity_oncreate_starts_initactivity.png)
+![SharkNetActivity onCreate starts init activity](sharknetactivity_oncreate_starts_initactivity.png#center)
 
 ### Integration der AusweisApp2 als Activity in SharkNet2Android
 
