@@ -9,11 +9,9 @@ menu:
     pre: '<i class="fa fa-print"></i>'
 ---
 
-# Fingerabdruck { #fingerabdruck }
+## Identifikation mittels Fingerabruck
 
 Der Fingerabdruck ist ein biometrisches Merkmal welches zur Identifkiation oder Verifikation einer Person benutzt wird. Die Papillarleisten und die Minuzien der Leistenhaut auf den Fingern bilden zusammen ein einzigartiges Muster. Fingerabdrücke werden in der Kriminalistik genutzt um mögliche Täter zu identifizieren oder in biometrischen Systemen um zu entscheiden, ob der Nutzer die nötige Berechtigung besitzt.
-
-# Identifikation mittels Fingerabdruck { #identifikation }
 
 Die Identifikation eines Fingerabdrucks besteht aus drei Aufgabenbereichen:
 
@@ -34,7 +32,7 @@ Der Ablauf einer Fingerabdruckanalyse besteht aus sechs Schritten:
 
 ![Schritte zur Erkennung eines Fingerabdrucks](schritte-fingerabruck-erkennung.png#center)
  
-## Fingerabdruckanalyse in Smartphones { #abtastung_in_smartphones }
+### Fingerabdruckanalyse in Smartphones { ##abtastung_in_smartphones }
 
 Die Fingerabdruckanalyse verläuft bei Smartphones unterschiedlich. Hierbei kommt es darauf an welche Technologien benutzt werden.
 
@@ -52,11 +50,11 @@ Kapazitive Sensoren bestehen aus kleinen Kondensatoren, die eine elektrische Lad
 
 Ultraschallsensoren senden einen Schallimpuls gegen den Finger, der von den Papillarleisten, Rillen und Poren unterschiedlich aufgenommen und zurückgeworfen wird [3]. Mit dieser Methode wird im Gegensatz zu den anderen vorgestellten Methoden kein zwei Dimensionales, sondern ein drei Dimensionales Bild des Fingerabdruck erstellt.
 
-### Probleme bei Fingerabdrücken { #probleme_fingerabdruck }
+#### Probleme bei Fingerabdrücken { ##probleme_fingerabdruck }
 
 Ein Fingerabdruck kann nicht erkannt werden wenn der Finger beispielsweise dreckig oder feucht ist. Bei der Authenzifierung kann es dazu kommen, dass eine fälschlichen Akzeptanz oder eine fälschliche Züruckweisung stattfindet.
 
-## Quellen:
+### Quellen:
 
 - [BSI Fingerabdruckerkennung](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Biometrie/Fingerabdruckerkennung_pdf.pdf?__blob=publicationFile)
 - [BSI Studien](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/BioFinger/BioFinger_I_I_pdf.pdf;jsessionid=25FF596E82CA4FEA122FBEED02247AEF.2_cid369?__blob=publicationFile&v=2)
