@@ -1,8 +1,8 @@
 ---
-title: "Read data from the ID card"
+title: "Lesen der Ausweisdaten"
 menu:
   main:
-    name: "Read data from the ID card"
+    name: "Lesen der Ausweisdaten"
     parent: "documentation"
     identifier: "documentation/read_data_from_id_card"
     weight: -996
@@ -19,7 +19,7 @@ Die Daten, die der Nutzer als Berechtigung freigibt, z.B. Name, Vorname, Pseudon
 
 Folgende Daten wären für einen Dienstanbieter möglich zu erhalten:
 
-| Animal         | asdasd             | asdasd                  |
+| Bürgerinnen und Bürger         | Dienstanbieter             | eID-Server                  |
 |----------------|--------------------|-------------------------|
 | Address        | Pseudonym          | AddressVerification     |
 | BirthName      | ValidUntil         | AgeVerification         |

@@ -1,8 +1,8 @@
 ---
-title: "Participants"
+title: "Teilnehmer_innen"
 menu:
   main:
-    name: "Participants"
+    name: "Teilnehmer_innen"
     parent: "introduction"
     identifier: "introduction/participants"
     weight: -930

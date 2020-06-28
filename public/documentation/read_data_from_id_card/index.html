@@ -1,0 +1,391 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Read data from the ID card</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/syntax.css">
+    </head>
+</html>
+
+<body>
+    <div class="wrapper">
+        <div class="header"><h1>Read data from the ID card</h1></div>
+        <div class="sidenav-left">
+            <ul class="nav-dark">
+
+    
+
+    <li>
+        <a href="/">
+            
+            <span>Ausweisapp2 Dokumentation</span>
+        </a>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/introduction/" onclick="collapsableNav(this)">
+            <i class="fa fa-user"></i>
+            <span>Introduction</span>
+        </a>
+        <ul class="sub-menu">
+            
+                
+
+    <li>
+        <a href="/introduction/participants/">
+            <i class="fa fa-user"></i>
+            <span>Participants</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/introduction/members/">
+            <i class="fa fa-user"></i>
+            <span>Project members</span>
+        </a>
+    </li>
+
+            
+        </ul>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/infrastructure/">
+            <i class="fa fa-user"></i>
+            <span>Infrastructure</span>
+        </a>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/sdkintroduction/">
+            <i class="fa fa-user"></i>
+            <span>SDK introduction</span>
+        </a>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/sdkchanges/">
+            
+            <span>Fehlende Aspekte und Problematiken der AusweisApp2 (SDK)</span>
+        </a>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/solution/" onclick="collapsableNav(this)">
+            <i class="fa fa-user"></i>
+            <span>SDK Solution</span>
+        </a>
+        <ul class="sub-menu">
+            
+                
+
+    <li>
+        <a href="/solution/changes/">
+            <i class="fa fa-user"></i>
+            <span>SDK Changes</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/solution/operationprinciple/">
+            <i class="fa fa-user"></i>
+            <span>Operationprinciple</span>
+        </a>
+    </li>
+
+            
+        </ul>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/changedsdk/" onclick="collapsableNav(this)">
+            <i class="fa fa-user"></i>
+            <span>Changed SDK</span>
+        </a>
+        <ul class="sub-menu">
+            
+                
+
+    <li>
+        <a href="/changedsdk/demo/">
+            <i class="fa fa-user"></i>
+            <span>Demo</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/changedsdk/advantagesanddisadvantages/">
+            <i class="fa fa-user"></i>
+            <span>Advantages and disadvantages</span>
+        </a>
+    </li>
+
+            
+        </ul>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/integration/">
+            <i class="fa fa-user"></i>
+            <span>Integration into Sharksystems</span>
+        </a>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/conclusion/">
+            <i class="fa fa-user"></i>
+            <span>Conclusion</span>
+        </a>
+    </li>
+
+
+    
+
+    <li>
+        <a href="/documentation/" onclick="collapsableNav(this)">
+            <i class="fa fa-book"></i>
+            <span>Documentation</span>
+        </a>
+        <ul class="sub-menu">
+            
+                
+
+    <li>
+        <a href="/documentation/needs_from_ausweisapp/">
+            
+            <span>Bedürfnisse an die AusweisApp</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/our_requirements_for_the_ausweisapp2/">
+            
+            <span>Unsere Anforderungen an die AusweisApp2</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/purchasing_scenarios/">
+            <i class="fa fa-shopping-cart"></i>
+            <span>Einkaufsszenarien</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/read_data_from_id_card/" onclick="collapsableNav(this)">
+            <i class="fa fa-id-card-o"></i>
+            <span>Read data from the ID card</span>
+        </a>
+        <ul class="sub-menu">
+            
+                
+
+    <li>
+        <a href="/documentation/read_data_from_id_card/kommunikation_mit_eigenem_eid/">
+            
+            <span>Communication with own eid service</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/read_data_from_id_card/self_auth_workflow/">
+            
+            <span>SelfAuth workflow</span>
+        </a>
+    </li>
+
+            
+        </ul>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/identity_card_as_key/">
+            <i class="fa fa-key"></i>
+            <span>Ausweis als Key</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/fingerprint/">
+            <i class="fa fa-print"></i>
+            <span>Fingerabdruck</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/attack_scenarios/">
+            
+            <span>Angriffsszenarien</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/implementation_possibilities/">
+            
+            <span>Umsetzungsmöglichkeiten</span>
+        </a>
+    </li>
+
+            
+                
+
+    <li>
+        <a href="/documentation/sharknet2android_integration_into_ausweisapp2/">
+            <div class="shark"></div>
+            <span>SharkNet2Android integration into AusweisApp2</span>
+        </a>
+    </li>
+
+            
+        </ul>
+    </li>
+
+
+</ul>
+        </div>
+        <div class="body">
+            
+    <p>Ansich erfolgt nach erfolgreicher Authentifizierung mit dem Ausweis über die AusweisApp2 keine Übertragung von Daten aus dem Ausweis zurück an den Nutzer (Client)</p>
+<p>Technischer Ablauf beim Online-Ausweisen (siehe Digitale Identifizierung mit dem deutschen Online-Ausweis):</p>
+<p><img src="technischer_ablauf_online_ausweisfunktion.png#center" alt="Technischer Ablauf der Online-Ausweisfunktionen"></p>
+<p>Die Daten, die der Nutzer als Berechtigung freigibt, z.B. Name, Vorname, Pseudonym ID, werden nach der PIN eingabe durch den Nutzer an den Dienstanbieter übermittelt. Dieser kann abschließend diese Daten wiederum an den Nutzer zurückschicken (z.B. im Schritt 8).</p>
+<p>Folgende Daten wären für einen Dienstanbieter möglich zu erhalten:</p>
+<table>
+<thead>
+<tr>
+<th>Bürgerinnen und Bürger</th>
+<th>Dienstanbieter</th>
+<th>eId Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Address</td>
+<td>Pseudonym</td>
+<td>AddressVerification</td>
+</tr>
+<tr>
+<td>BirthName</td>
+<td>ValidUntil</td>
+<td>AgeVerification</td>
+</tr>
+<tr>
+<td>FamilyName</td>
+<td>Nationality</td>
+<td>WriteAddress</td>
+</tr>
+<tr>
+<td>GivenNames</td>
+<td>IssuingCountry</td>
+<td>WriteCommunityID</td>
+</tr>
+<tr>
+<td>PlaceOfBirth</td>
+<td>DocumentType</td>
+<td>WriteResidencePermitI</td>
+</tr>
+<tr>
+<td>DateOfBirth</td>
+<td>ResidencePermitI</td>
+<td>WriteResidencePermitII</td>
+</tr>
+<tr>
+<td>DoctoralDegree</td>
+<td>ResidencePermitII</td>
+<td></td>
+</tr>
+<tr>
+<td>ArtisticName</td>
+<td>CommunityID</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Das <strong>Pseudonym</strong> beschreibt eine ID, die zwischen Ausweiskarte und <strong>Betreiberzertifikat</strong> (das vom Dienstanbieter) generiert wird. Dieses dient als wiederkehrende Erkennung für Nutzer bei einem Dienst. Diese könnten wir als UUID nutzen.</p>
+<p>Die <strong>Selbstauskunft</strong> ist ein ganz normaler Dienst, welcher z.B. durch die AusweisApp2 aufgerufen werden kann. Dieser Selbstauskunftsdienst (unter <a href="https://test.governikus-eid.de/AusweisAuskunft/WebServiceRequesterServlet?mode=json">https://test.governikus-eid.de/AusweisAuskunft/WebServiceRequesterServlet?mode=json</a> oder <a href="https://www.autentapp.de/AusweisAuskunft/WebServiceRequesterServlet?mode=json">https://www.autentapp.de/AusweisAuskunft/WebServiceRequesterServlet?mode=json</a> zu erreichen) fordert als Berechtigung einige Standardfelder, wie Adresse, Name, Vorname. Diese Daten werden dann, wie oben in der Grafik zu sehen, nach erfolgreicher PIN eingabe durch den Nutzer an den Selbstauskunftsdienst übermittelt. Und dieser überträgt anschließend diese Daten im JSON Format wieder zurück zum Nutzer/ Client, also in unserem Falle die Android App AusweisApp2.</p>
+<p>Die <strong>Selbstauskunft</strong> an sich ist ein sogenannter <strong>Workflow</strong> in dieser App. Diese Workflows bestehen wiederum aus <strong>States</strong> und sind z.B. Auth → Enter PIN → Auth OK. Die AusweisApp2 SDK stellt für Android nur eine limitierte Funktionalität bereit; lediglich ein Workflow, also der Auth Workflow, der den Nutzer beim Dienstanbieter bestätigt, ist nutzbar.</p>
+<p>Also stehen zwei Möglichkeiten bereit, um Daten vom Ausweis zu bekommen:</p>
+<ul>
+<li>Einen eigenen eID-Dienst zu registrieren und aufzusetzen, um im Idealfall nur die Pseudonym Funktion zu nutzen (wäre aber ein Single Point of Failure in dem dezentralen Messenger)</li>
+<li>Die Selbstauskunft zu nutzen (der Dienst bekommt von unserer Intention nichts mit, wofür wir letztendlich die Daten nutzen; und es sollte mehrere Selbstauskunftsdienst-Server geben)</li>
+</ul>
+<p>Um die Selbstauskunft über die SDK in Android nutzbar zu machen, muss eine Erweiterung folgender Komponenten in der AusweisApp2 (<a href="https://github.com/Governikus/AusweisApp2">https://github.com/Governikus/AusweisApp2</a>) stattfinden:</p>
+<ul>
+<li>Erweiterung des JSON UI Plugins um einen “SelfAuth” Command</li>
+<li>
+<ul>
+<li>hinzufügen entsprechender Messages z.B. MsgHandlerSelfAuth</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Integration von States, wie EnterPin im JSON UI Plugin, um den Workflow zu durchlaufen</li>
+</ul>
+</li>
+<li>Hinzufügen/ Verändern von einem ActivationHandler, der das Signal fireSelfAuthenticationRequested emittiert; dieses wird im AppController verarbeitet und startet somit den SelfAuth Workflow</li>
+</ul>
+
+
+        </div>
+        <div class="sidenav-right"></div>
+        <div class="footer">Footer</div>
+    </div>
+</body>

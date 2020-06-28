@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* grids part */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  height: 100%;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  grid-column: 2 / 10;
+  grid-row: 1;
+}
+
+.header h1 {
+  padding: 5px 0px 0px 5px;
+}
+
+.sidenav-left {
+  background-color: rgba(0, 0, 0, 0.7);
+  grid-column: 1;
+  grid-row: 1 / 19;
+  padding: 15px 5px;
+}
+
+.sidenav-right {
+  background-color: rgba(0, 0, 0, 0.7);
+  grid-column: 10;
+  grid-row: 1 / 19;
+}
+
+.footer {
+  grid-column: 1 / 11;
+  grid-row: 19 / 21;
+}
+
+.body {
+  grid-column: 2 / 10;
+  grid-row: 2 / 19;
+  padding: 15px;
+}
+
+/* end of grids */
+
+ul {
+  padding-left: 12px;
+}
+
+.sidenav-left ul {
+  padding-left: 0px;
+}
+
+.sidenav-left ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+/* Manipulate the highlighting*/
+.highlight {
+  padding: 5px 15px;
+}
+
+.sub-menu {
+  margin-left: 15px;
+}
+
+.nav-dark li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-dark li :hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*
+Image related formattings
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img[src$='#center']
+{
+  display: block;
+  margin: 0.7rem auto;
+}
+
+img[src$='#left']
+{
+  float:left;
+  margin: 0.7rem;
+}
+
+img[src$='#right']
+{
+  float:right;
+  margin: 0.7rem;
+}
+
+/*
+Video related formattings
+*/
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+video[src$='#center'] {
+  display: block;
+  margin: 0.7rem auto;
+}
+
+video[src$='#left'] {
+  float:left;
+  margin: 0.7rem;
+}
+
+video[src$='#right'] {
+  float:right;
+  margin: 0.7rem;
+}
+
+
+/* table related settings */
+table {
+  margin: 20px 15%;
+  width:70%; 
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+/*
+paragraph settings
+*/
+
+p {
+  margin-top: 15px;
+}
+
+/*
+
+*/
+
+h2 {
+  margin-top: 30px;
+}
+
+h3 {
+ margin-top: 20px; 
+}
+
+h4 {
+  margin-top: 15px;
+}
+
+h5 {
+  margin-top: 10px;
+}
+
+/**/
+
+div .shark {
+	background-image: url(http://www.sharksystem.net/bilder_shark/shark_Logo_grau.png); 
+  height: 49px;
+  width: 206px;
+}
+
+div .shark:hover {
+	background-image: url(http://www.sharksystem.net/bilder_shark/shark_Logo_graugruen.png);
+}

@@ -1,8 +1,8 @@
 ---
-title: "Infrastructure"
+title: "Infrastruktur"
 menu:
   main:
-    name: "Infrastructure"
+    name: "Infrastruktur"
 #    parent: "introduction"
     identifier: "infrastructure"
     weight: -929

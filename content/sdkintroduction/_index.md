@@ -1,8 +1,8 @@
 ---
-title: "SDK introduction"
+title: "Einführung in die SDK"
 menu:
   main:
-    name: "SDK introduction"
+    name: "Einführung in die SDK"
 #    parent: "introduction"
     identifier: "sdkintroduction"
     weight: -928
