@@ -1,19 +1,15 @@
 baseURL: https://docs.ausweisapp2.computingoverload.de/
 defaultContentLanguageInSubdir: true
-languageCode: en
+languageCode: de
 title: ausweisapp2 documentation
-DefaultContentLanguage: en
+DefaultContentLanguage: de
 preserveTaxonomyNames: true
 disableKinds:
   - taxonomyTerm
 
 languages:
-  en:
-    weight: 2
-
   de:
     weight: 2
-
 
 theme: "ausweisapp2-hugo-theme"
 

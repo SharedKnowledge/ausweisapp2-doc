@@ -1,12 +1,12 @@
 ---
-title: "Purchasing Scenarios"
+title: "Einkaufsszenarien"
 menu:
   main:
-    name: "Purchasing Scenarios"
+    name: "Einkaufsszenarien"
     parent: "documentation"
     identifier: "documentation/purchasing_scenarios"
-    weight: -900
-    #pre: '<i class="fa fa-id-badge"></i>'
+    weight: -997
+    pre: '<i class="fa fa-shopping-cart"></i>'
 ---
 
 Einkaufsszenarien eines solchen Frameworks könnten im Hinblick auf Authentifizierung die folgenden sein:
