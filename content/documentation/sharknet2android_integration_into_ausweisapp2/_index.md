@@ -100,4 +100,4 @@ public void finish() {
 
 ## Quellen:
 
-- https://www.vogella.com/tutorials/AndroidIntent/article.html#retrieving-result-data-from-a-sub-activity
+- [Android Intents - Tutorial](https://www.vogella.com/tutorials/AndroidIntent/article.html#retrieving-result-data-from-a-sub-activity)

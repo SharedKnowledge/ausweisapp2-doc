@@ -9,11 +9,11 @@ menu:
     #pre: '<i class="fa fa-id-badge"></i>'
 ---
 
-## Neuer Workflow
+## Gewünschte Anforderungen an die AusweisApp2
 
 **Validation**
 
-Hierbei überträgt mit Hilfe eines zusätzlichen commands JSON Daten, die man gerne mit den eigentlichen Daten auf dem Ausweis abgleichen lassen will. 
+Hierbei überträgt man mit Hilfe eines zusätzlichen commands JSON Daten, die man gerne mit den eigentlichen Daten auf dem Ausweis abgleichen lassen will. 
 Hierbei werden nur die Daten verglichen, die man mit dem “ACCESS_RIGHTS” command definiert hat. 
 Der Server gleicht dann die entschlüsselten Daten mit den zu validierenden Daten ab, und schickt entweder ein result mit “ok” oder eben nicht ok zurück. 
 Durch diesen Workflow bleibt der Datenschutz erhalten, da weiterhin nicht-Dienstanbieter nicht willkürlich Zugriff auf Daten bekommen und es wird 3rd parties möglich, die AusweisApp2 AndroidSDK sinnvoll zu nutzen, ohne selbst ein Dienstanbieter zu werden.
@@ -28,6 +28,6 @@ Im Ausweisportal des Bundesministeriums des Inneren, für Bau und Heimat wird be
 
 
 ## Quellen:
-
-- Bundesministerium des Inneren, für Bau und Heimat https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Details/DatenChip/datenChip_artikel.html
-- Bundesministerium der Justiz und für Verbraucherschutz: https://www.gesetze-im-internet.de/pauswg/BJNR134610009.html
+{{<br>}}
+- [Bundesministerium des Inneren, für Bau und Heimat](https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Details/DatenChip/datenChip_artikel.html)
+- [Bundesministerium der Justiz und für Verbraucherschutz](https://www.gesetze-im-internet.de/pauswg/BJNR134610009.html)

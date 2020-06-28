@@ -18,12 +18,11 @@ Als Middleware zwischen Kartenleser, eID und Onlineservice kann die AusweisApp2 
 {{<br>}} {{<br>}}
 
 ## Quellen: 
-(Wikipedia)AusweisApp2: https://de.wikipedia.org/wiki/AusweisApp2 [abgerufen am 30.4.2020]
+- Arndt Bonitz et al. 2018: Technologien fuer digitale Buergerbeteiligungsverfahren, in: Maria Leitner (Hrsg.), Digitale Buergerbeteiligung. Forschung und Praxis - Chancen und Herausforderungen der elektronischen Partizipation, Springer Vieweg: Wiesbaden, S. 99 - 126.
 
- Arndt Bonitz et al. 2018: Technologien fuer digitale Buergerbeteiligungsverfahren, in: Maria Leitner (Hrsg.), Digitale Buergerbeteiligung. Forschung und Praxis - Chancen und Herausforderungen der elektronischen Partizipation, Springer Vieweg: Wiesbaden, S. 99 - 126.
+- [(Wikipedia)AusweisApp2](https://de.wikipedia.org/wiki/AusweisApp2)
 
-Ansgar Tessmer (2020): Digitaler Vertragsabschluss mit eID & eIDAS, https://www.ausweisapp.bund.de/fileadmin/user_upload/Anwenderforen/2020/TESSMER_2020-01-20_eID_eIDAS_Anbieterforum_BV.pdf [abgerufen am 30.04.2020].
-- Versuch eID zur Signierung und Siegelung einzusetzen.
+- [Ansgar Tessmer (2020): Digitaler Vertragsabschluss mit eID & eIDAS](https://www.ausweisapp.bund.de/fileadmin/user_upload/Anwenderforen/2020/TESSMER_2020-01-20_eID_eIDAS_Anbieterforum_BV.pdf)
 
-Christian Kahlo (2020): Mobile Identitaet mit der AusweisApp2 - ein Prototyp, https://www.ausweisapp.bund.de/fileadmin/user_upload/Anwenderforen/KAHLO_AA2AF_meID_20200120.pdf [abgerufen am 30.04.2020].
-- Mobil Personenbezogene Daten abrufen.
+- [Christian Kahlo (2020): Mobile Identitaet mit der AusweisApp2 - ein Prototyp](https://www.ausweisapp.bund.de/fileadmin/user_upload/Anwenderforen/KAHLO_AA2AF_meID_20200120.pdf)
+
