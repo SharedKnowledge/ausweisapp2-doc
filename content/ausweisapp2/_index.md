@@ -9,4 +9,4 @@ menu:
     pre: '<i class="fa fa-book"></i>'
 ---
 
-{{< video_biblio_htw 8792de5b2ea17614da72a74f13ec1bda.mp4 >}}
+{{< video "vorstellung_und_offiz_weg.mp4#center" >}}

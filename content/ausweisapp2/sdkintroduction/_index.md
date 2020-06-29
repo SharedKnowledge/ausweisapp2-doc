@@ -5,7 +5,7 @@ menu:
     name: "Aufbau und Einführung in die SDK"
     parent: "ausweisapp2"
     identifier: "ausweisapp2/sdkintroduction"
-    weight: -928
+    weight: -900
     #pre: '<i class="fa fa-user"></i>'
 ---
 
@@ -17,6 +17,6 @@ menu:
 
 {{< video_biblio_htw "76ead670246133d8adb1c26e4607ea67.mp4#center" >}}
 
-## Integration in eine Andriod Bibliothek
+## Integration in eine Android Bibliothek
 
 {{< video_biblio_htw "1ed9b49f89020bae45e3afe02e520552.mp4#center" >}}

@@ -5,7 +5,7 @@ menu:
     name: "Integration in die AusweisApp2"
     parent: "ausweisapp2"
     identifier: "ausweisapp2/integrationinausweisapp2"
-    weight: -928
+    weight: -850
     #pre: '<i class="fa fa-user"></i>'
 ---
 
