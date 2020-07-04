@@ -60,3 +60,5 @@ Ein Fingerabdruck kann nicht erkannt werden wenn der Finger beispielsweise dreck
 - [BSI Studien](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/BioFinger/BioFinger_I_I_pdf.pdf;jsessionid=25FF596E82CA4FEA122FBEED02247AEF.2_cid369?__blob=publicationFile&v=2)
 - [Fingerabdruck Scanning in Smartphones](https://www.connect.de/ratgeber/fingerabdruck-fingerprint-sensor-scanner-smartphone-finger-technik-3198730.html)
 - [Fingerabdrucksensort Biometrisch](https://blog.deinhandy.de/fingerabdrucksensor-so-funktioniert-der-biometrische-scan)
+
+&nbsp;

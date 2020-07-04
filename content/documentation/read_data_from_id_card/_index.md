@@ -48,3 +48,5 @@ Um die Selbstauskunft über die SDK in Android nutzbar zu machen, muss eine Erwe
 - * hinzufügen entsprechender Messages z.B. MsgHandlerSelfAuth
 - * Integration von States, wie EnterPin im JSON UI Plugin, um den Workflow zu durchlaufen
 - Hinzufügen/ Verändern von einem ActivationHandler, der das Signal fireSelfAuthenticationRequested emittiert; dieses wird im AppController verarbeitet und startet somit den SelfAuth Workflow
+
+&nbsp;

@@ -66,7 +66,7 @@ Die Aktivität, die einen Rückgabewert liefert
 
 - muss eine setResult() Methode besitzen, die in der finish() Methode einen Rückgabewert in Form eines Intents an die aufrufende Methode übergibt
 
-**In aufrufender Klasse (InitActivity)**
+#### In aufrufender Klasse (InitActivity)
 
 ```java
 public String getUsername(View view) {
@@ -86,7 +86,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-**In aufgerufener Klasse (AusweisApp2Activity)**
+#### In aufgerufener Klasse (AusweisApp2Activity)
 
 ```java
 @Override
@@ -98,6 +98,8 @@ public void finish() {
 }
 ```
 
-## Quellen:
+## Quellen
 
 - [Android Intents - Tutorial](https://www.vogella.com/tutorials/AndroidIntent/article.html#retrieving-result-data-from-a-sub-activity)
+
+&nbsp;
