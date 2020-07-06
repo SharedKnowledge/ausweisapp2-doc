@@ -49,6 +49,10 @@ Um die Selbstauskunft über die SDK in Android nutzbar zu machen, muss eine Erwe
 - Erweiterung des JSON UI Plugins um einen “SelfAuth” Command
 - * hinzufügen entsprechender Messages z.B. MsgHandlerSelfAuth
 - * Integration von States, wie EnterPin im JSON UI Plugin, um den Workflow zu durchlaufen
-- Hinzufügen/Verändern von einem ActivationHandler, der das Signal fireSelfAuthenticationRequested emittiert; dieses wird im AppController verarbeitet und startet somit den SelfAuth Workflow
+- Hinzufügen/Verändern von einem ActivationHandler, der das Signal fireSelfAuthenticationRequested emittiert, dieses wird im AppController verarbeitet und startet somit den SelfAuth Workflow
+
+## Bildquelle 
+[Digitale Identifizierung mit dem deutschen Online-Ausweis](https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Material-Dienstleister/anwenderhandbuch.pdf?__blob=publicationFile&v=2)
+
 
 &nbsp;
