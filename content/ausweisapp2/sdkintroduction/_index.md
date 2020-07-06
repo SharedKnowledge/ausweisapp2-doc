@@ -20,3 +20,10 @@ menu:
 ## Integration in eine Android Bibliothek
 
 {{< video_biblio_htw "1ed9b49f89020bae45e3afe02e520552.mp4#center" >}}
+
+## Quellen
+
+- https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Material-Dienstleister/anwenderhandbuch.pdf?__blob=publicationFile&v=2
+- https://github.com/Governikus/AusweisApp2/
+
+&nbsp;
