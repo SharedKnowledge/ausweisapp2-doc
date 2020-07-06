@@ -36,7 +36,7 @@ Der Ablauf einer Fingerabdruckanalyse besteht aus sechs Schritten:
 
 Die Fingerabdruckanalyse verläuft bei Smartphones unterschiedlich. Hierbei kommt es darauf an welche Technologien benutzt werden.
 
-Bei optischen Sensoren dient die Glasplatte auf der das Finger gelegt wird als Prisma.
+Bei optischen Sensoren dient die Glasplatte auf der der Finger gelegt wird als Prisma.
 
 Eine Lichtquelle beleuchtet den Finger und der Prisma reflektiert die auf ein Bildsensor, aber dort wo sich die Papillarleisten befinden wird die Reflektion gestört [3]. Der Bildsensor interpretiert das reflektierte Licht und erzeugt ein digitales Bild des Fingerabdrucks.
 

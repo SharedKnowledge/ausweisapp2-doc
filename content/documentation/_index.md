@@ -9,4 +9,4 @@ menu:
     pre: '<i class="fa fa-book"></i>'
 ---
 
-Dieser Abschnitt enthält die schriftliche Dokumentation zu der Ausarbeitung.
+Dieser Abschnitt enthält die schriftliche Dokumentation zu der Ausarbeitung. Viel Spaß beim Lesen. 

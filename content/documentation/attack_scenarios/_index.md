@@ -13,11 +13,11 @@ menu:
 
 ## Manipulation der AusweisApp2
 
-Laut dem zweiten Paragraphen hier wird von dem BSI selbst empfohlen, den Hashwert der AusweisApp2 (Desktop Varianten) selbst zu überprüfen. Man könnte also grundsätzlich eine manipulierte Version der AusweisApp2 erstellen und diese als echte AusweisApp2 vergaukeln. Da die App Open Source ist, kann man auch einfach die App für seine eigenen bösen Absichten umgestalten
+Laut dem zweiten Paragraphen hier wird von dem BSI selbst empfohlen, den Hashwert der AusweisApp2 (Desktop Varianten) selbst zu überprüfen. Man könnte also grundsätzlich eine manipulierte Version der AusweisApp2 erstellen und diese als echte AusweisApp2 vorgaukeln. Da die App Open Source ist, kann man auch einfach die App für seine eigenen bösen Absichten umgestalten.
 
 ## Beschaffung von Fingerabdrücken
 
-Wenn es auf irgendeine Weise möglich ist, an den Fingerabdruck bzw. die Daten des Fingerabdruckes der Person zu kommen, so ist eines der größten (zukünftigen) Sicherheitsaspekte umgangen. Man hat nur einen Fingerabdruck und kann diesen nicht einfach ändern. Theoretisch könnte man auch die Fingerabdruckdaten aus Android herauslesen (mittels unbekannten exploits).Oder einfach wie hier den Abdruck aus einem Foto extrahieren :)
+Wenn es auf irgendeine Weise möglich ist, an den Fingerabdruck bzw. die Daten des Fingerabdruckes der Person zu kommen, so ist eines der größten (zukünftigen) Sicherheitsaspekte umgangen. Man hat nur einen Fingerabdruck und kann diesen nicht einfach ändern. Theoretisch könnte man auch die Fingerabdruckdaten aus Android herauslesen (mittels unbekannten exploits).Oder einfach wie hier den Abdruck aus einem Foto extrahieren.
 
 
 ## Beschaffung der PIN / CAN
@@ -40,3 +40,6 @@ Es wurde bereits häufig demonstriert, wie einfach eine simple Gesichtserkennung
 
 Angesichts der enormen Konsequenzen, die durch das umgehen der Sicherheitsmaßnahmen  entstehen können, erscheint es momentan noch viel zu einfach, die Sicherheitsmaßnahmen zu umgehen und Zugriff zu erhalten. Natürlich kann man nicht einfach so zufällig Leute hacken, jedoch ist es möglich, gezielte Angriffe auf spezielle Personen durchzuführen.
 Am unsichersten erscheint die Gesichtserkennung. Diese scheint außerdem nur schwer umsetzbar auf mobilen Geräten.
+
+
+- [Validierung durch die Ausweisapp](https://www.ausweisapp.bund.de/sdk/android.html)

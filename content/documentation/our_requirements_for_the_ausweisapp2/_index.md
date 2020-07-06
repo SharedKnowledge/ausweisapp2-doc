@@ -13,10 +13,11 @@ menu:
 
 **Validation**
 
-Hierbei überträgt man mit Hilfe eines zusätzlichen commands JSON Daten, die man gerne mit den eigentlichen Daten auf dem Ausweis abgleichen lassen will. 
+Bei der Validierung mit der Ausweisapp werden die Nutzerdaten als JSON mit den auf einem Server hinterlegten Daten abgegelichen.
 Hierbei werden nur die Daten verglichen, die man mit dem “ACCESS_RIGHTS” command definiert hat. 
-Der Server gleicht dann die entschlüsselten Daten mit den zu validierenden Daten ab, und schickt entweder ein result mit “ok” oder eben nicht ok zurück. 
-Durch diesen Workflow bleibt der Datenschutz erhalten, da weiterhin nicht-Dienstanbieter nicht willkürlich Zugriff auf Daten bekommen und es wird 3rd parties möglich, die AusweisApp2 AndroidSDK sinnvoll zu nutzen, ohne selbst ein Dienstanbieter zu werden.
+Der Server gleicht dann die entschlüsselten Daten mit den zu validierenden Daten ab, und schickt entweder ein result mit “ok” oder "invalide" zurück. 
+
+Durch diesen Workflow bleibt der Schutz der persönlichen Daten bestehen, da nicht authorisierte Dienstanbieter keinen willkürlichen Zugriff auf die Daten bekommen. Gleichzeitig können 3rd Party Anbieter die AusweisApp2 AndroidSDK verwenden ohne Selbst Dienstanbieter zu werden. 
 So kann man beispielsweise sicherstellen, dass ein Nutzer echt ist und sich auch mit seinen echten Daten beim entsprechenden online Dienst angemeldet hat. Derzeit ist dies als nicht-Dienstanbieter **nicht** möglich.
 
 
@@ -31,3 +32,4 @@ Im Ausweisportal des Bundesministeriums des Inneren, für Bau und Heimat wird be
 {{<br>}}
 - [Bundesministerium des Inneren, für Bau und Heimat](https://www.personalausweisportal.de/DE/Buergerinnen-und-Buerger/Der-Personalausweis/Details/DatenChip/datenChip_artikel.html)
 - [Bundesministerium der Justiz und für Verbraucherschutz](https://www.gesetze-im-internet.de/pauswg/BJNR134610009.html)
+- [Validierung durch die Ausweisapp](https://www.ausweisapp.bund.de/sdk/android.html)
