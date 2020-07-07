@@ -23,7 +23,9 @@ menu:
 
 ## Quellen
 
-- https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Material-Dienstleister/anwenderhandbuch.pdf?__blob=publicationFile&v=2
-- https://github.com/Governikus/AusweisApp2/
+- [Personalausweisportal](https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Material-Dienstleister/anwenderhandbuch.pdf?__blob=publicationFile&v=2)
+- [AusweisApp2](https://github.com/Governikus/AusweisApp2/)
+- [SharkAuth](https://github.com/sharkauth)
+- [SharkNet2Android](https://github.com/SharedKnowledge/SharkNet2Android)
 
 &nbsp;
