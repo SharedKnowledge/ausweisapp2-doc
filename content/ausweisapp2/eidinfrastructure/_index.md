@@ -5,7 +5,7 @@ menu:
     name: "eID Infrastruktur"
     parent: "ausweisapp2"
     identifier: "ausweisapp2/eidinfrastructure"
-    weight: -950
+    weight: -999
     #pre: '<i class="fa fa-user"></i>'
 ---
 

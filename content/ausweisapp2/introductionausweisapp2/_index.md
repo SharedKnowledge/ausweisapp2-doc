@@ -5,7 +5,7 @@ menu:
     name: "Vorstellung AusweisApp2"
     parent: "ausweisapp2"
     identifier: "ausweisapp2/introductionausweisapp2"
-    weight: -999
+    weight: -950
     #pre: '<i class="fa fa-user"></i>'
 ---
 
